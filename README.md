@@ -95,10 +95,10 @@ API_NODE_TO_DO_LIST/
 │   │   └── tarefaController.js # Handlers de cada endpoint
 │   ├── services/
 │   │   └── tarefaService.js    # Lógica de negócio e persistência
-│   └── models/
-│       └── tarefaModel.js      # Estrutura de dados da tarefa
+│   ├── models/
+│   │   └── tarefaModel.js      # Estrutura de dados da tarefa
+│   └── tarefas.json            # Banco de dados local (gerado automaticamente)
 │
-├── tarefas.json                # Banco de dados local (gerado automaticamente)
 └── README.md
 ```
 
