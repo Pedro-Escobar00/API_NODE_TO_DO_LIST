@@ -1,4 +1,4 @@
-const tarefaService = require('../services/tarefaService');
+const tarefaService = require('../services/taskService');
 
 const getRequestBody = (req) => {
   return new Promise((resolve, reject) => {

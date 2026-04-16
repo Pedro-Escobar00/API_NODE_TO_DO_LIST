@@ -1,4 +1,4 @@
-const tarefaController = require('../controllers/tarefaController');
+const tarefaController = require('../controllers/taskController');
 
 module.exports = (req, res) => {
   const url = req.url;

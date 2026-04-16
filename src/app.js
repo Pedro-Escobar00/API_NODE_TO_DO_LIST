@@ -1,6 +1,6 @@
 const http = require('http');
 
-const tarefaRoutes = require('./routes/tarefaRoute');
+const tarefaRoutes = require('./routes/taskRoute');
 
 const server = http.createServer((req,res)=>{
 
@@ -12,5 +12,5 @@ const server = http.createServer((req,res)=>{
 const PORT = 3000;
 
 server.listen(PORT,() => {
-    console.log(`Servidor bala em http://localhosy:${PORT}`);
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
 });

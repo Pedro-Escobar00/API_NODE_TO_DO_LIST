@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { criarTarefa } = require('../models/tarefaModel');
+const { criarTarefa } = require('../models/taskModel');
 
 const ARQUIVO = './tarefas.json';
 
